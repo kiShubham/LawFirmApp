@@ -1,0 +1,45 @@
+.navbarWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  margin-right: 109px;
+}
+.logo img {
+}
+.btnWrapper Button {
+  color: var(--color-white);
+  background-color: transparent;
+  border: none;
+  font-family: "Inter";
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 520;
+  line-height: 162.523%;
+}
+.contactBtn {
+  margin-left: 160px;
+}
+.contactBtn Button {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  border-radius: 0;
+  font-family: "inter";
+  width: 172px;
+  height: 47px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 520;
+  line-height: normal;
+}

@@ -1,0 +1,107 @@
+.group2 {
+  margin-top: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  margin-left: 6px;
+  margin-bottom: 170px;
+  width: 1132px;
+  height: 174px;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  height: 206px;
+  width: 0px;
+  border: 1px solid var(--color-white);
+  opacity: 0.3;
+}
+.leftCol {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 161.523%; /* 87.222px */
+}
+.rightCol {
+  margin-left: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.rightColTopic {
+  color: var(--color-white);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%; /* 52.007px */
+}
+.rightColTxt {
+  width: 475px;
+  height: 87px;
+  color: var(--color-white);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+.topic {
+  text-align: center;
+  color: var(--color-white);
+  font-family: "Inter";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+}
+.cards {
+  margin-top: 97px;
+  display: flex;
+  gap: 31px;
+}
+
+.customers {
+  margin-top: 186px;
+}
+.peoplesHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.peoplesHeading .topic {
+  width: 374px;
+  height: 154px;
+}
+.roundBtn button {
+  width: 90.612px;
+  height: 90.612px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roundBtn {
+  display: flex;
+  gap: 18.78px;
+}
+
+.peoplesCard {
+  margin-top: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
