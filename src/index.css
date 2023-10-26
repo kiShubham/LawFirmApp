@@ -1,0 +1,22 @@
+:root {
+  --color-black: #121212;
+  --color-white: #fff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
