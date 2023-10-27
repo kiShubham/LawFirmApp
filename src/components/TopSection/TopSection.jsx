@@ -16,6 +16,7 @@ import imageFive from "../../assets/Rectangle 3655.png";
 import imageSix from "../../assets/Rectangle 3656.png";
 import Team from "../Team/Team";
 import NewsLetter from "../NewsLetter/NewsLetter";
+import Faqs from "../Faqs/Faqs";
 
 const TopSection = () => {
   return (
@@ -103,6 +104,10 @@ const TopSection = () => {
 
         <div className={styles.TeamSection}>
           <Team />
+        </div>
+
+        <div className={styles.FaqsSection}>
+          <Faqs />
         </div>
 
         <div className={styles.NewsLetterSection}>

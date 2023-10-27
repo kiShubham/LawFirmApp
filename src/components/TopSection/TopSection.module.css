@@ -77,7 +77,8 @@
 }
 .peoplesHeading {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 510px;
   align-items: end;
 }
 .peoplesHeading .topic {

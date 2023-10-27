@@ -1,0 +1,52 @@
+.faqsParent {
+  margin-top: 180px;
+  width: 1140px;
+  height: 629px;
+  flex-shrink: 0;
+  display: flex;
+}
+.faqsParent .child1 {
+  width: 557px;
+}
+
+.faqsParent .child1 .heading {
+  color: var(--Pure-White, #fff);
+  font-family: "Inter";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.023%; /* 74.532px */
+}
+
+.randomTxt {
+  color: var(--Pure-White, #fff);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.4;
+}
+
+.line {
+  border: 1px solid #fff;
+  opacity: 0.05;
+}
+.subHeading {
+  color: var(--Pure-White, #fff);
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+.faqsParent .child2 {
+  width: 557px;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+.toggle {
+  display: flex;
+  justify-content: space-between;
+}
