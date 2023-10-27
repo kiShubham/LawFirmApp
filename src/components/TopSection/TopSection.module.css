@@ -105,3 +105,14 @@
   justify-content: center;
   gap: 30px;
 }
+
+.blocks {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.practice .topic {
+  margin-bottom: 65px;
+  margin-top: 179px;
+}

@@ -1,0 +1,52 @@
+.card {
+  width: 344px;
+  height: 109px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  padding: 18px 140px 23px 26px;
+}
+.card:hover {
+  background: var(--color-primary);
+  .name {
+    color: var(--Text-Black, #373737);
+  }
+  .SubString {
+    opacity: 1;
+  }
+}
+.details {
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 22px;
+  align-items: center;
+}
+.detials img {
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 68px;
+}
+.txtBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.txtBox .name {
+  color: var(--color-white);
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+.SubString {
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  opacity: 0.4;
+}

@@ -1,0 +1,61 @@
+.parent {
+  margin-top: 217px;
+  width: 1245px;
+  height: 356px;
+  flex-shrink: 0;
+  background: rgba(71, 71, 71, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 93px;
+  gap: 42px;
+}
+.Heading {
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica", Sans-Serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137%; /* 75.35px */
+}
+.btnSec {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.customInput,
+.customInput2 {
+  width: 276px;
+  height: 53px;
+  flex-shrink: 0;
+  border: none;
+  padding: 15px;
+  border-radius: 8px 0px 0px 8px;
+  background: #e4e4e4;
+  color: #818181;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 137%; /* 19.18px */
+}
+.customInput2 {
+  border-radius: 0px;
+}
+.cutommBtn {
+  margin-top: 0;
+  background-color: var(--color-primary);
+  width: 116px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: var(--color-black);
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137%; /* 19.18px */
+}
